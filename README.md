@@ -13,6 +13,8 @@ Ampere and Ada don't report VRAM temperatures in official NVIDIA Linux tools suc
 > Core logic stays the same.
 
 ## Build
+
+One file: [`vramtemp.c`](/vramtemp.c)
 ```bash
 gcc -o vramtemp vramtemp.c -lpci
 ```
