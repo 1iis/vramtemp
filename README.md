@@ -49,6 +49,9 @@ sudo vramtemp | cut -d' ' -f1      #→ 76
 sudo vramtemp | cut -d' ' -f2      #→ 42
 ```
 
+## Install
+Just copy the executable to a dir in your `PATH`. `/usr/local/bin` fits the FHS.
+
 ## Why `vramtemp`?
 
 - Fast (written in C).
