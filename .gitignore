@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# solveit
+CRAFTs/
+CRAFT.ipynb
+TEMPLATE.ipynb
