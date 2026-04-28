@@ -50,7 +50,8 @@ sudo vramtemp | cut -d' ' -f2      #→ 42
 ```
 
 ## Install
-Just copy the executable to a dir in your `PATH`. `/usr/local/bin` fits the FHS.
+Just copy the executable to a dir in your `PATH`.  
+`/usr/local/bin` fits the FHS.
 
 ## Why `vramtemp`?
 
