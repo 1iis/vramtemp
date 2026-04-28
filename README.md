@@ -1,7 +1,7 @@
 # `vramtemp`
 > VRAM Temperature Reader
 
-Ampere and Ada don't report VRAM temperatures on official Linux tools such as `nvidia-smi` / `nvidia-settings`. So we work around it by reading directly from the driver's outputs, with a dead simple C program, easy to consume by other scripts and applications. Tested on RTX 3090.
+Ampere and Ada don't report VRAM temperatures in official NVIDIA Linux tools such as `nvidia-smi` / `nvidia-settings`. So we work around it by reading directly from the driver's outputs, with a dead simple C program, easy to consume by other scripts and applications. Tested on RTX 3090.
 
 > [!Note]  
 > **This is a barebone rewrite of [`gddr6`](https://github.com/olealgoritme/gddr6) by Ole Algoritme** ([@olealgoritme](https://github.com/olealgoritme)).  
